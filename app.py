@@ -12,7 +12,7 @@ st.set_page_config(page_title=" Energy Consumption Forecasting", layout="wide")
 st.title(" Energy Consumption Forecasting App")
 
 # Upload CSV file
-uploaded_file = st.file_uploader("https://github.com/Varshini2355/AICTE-INTERNSHIP-PROJECT/blob/main/Energy_Consumption_Forecasting.csv")
+uploaded_file = st.file_uploader("Upload your energy consumption dataset (CSV)")
 
 if uploaded_file is not None:
     # Load dataset
